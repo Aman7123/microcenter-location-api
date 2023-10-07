@@ -1,0 +1,9 @@
+version: '3'
+services:
+  flask-app:
+    restart: always
+    build:
+      context: .
+      dockerfile: Dockerfile  # Specify the path to your Dockerfile
+    ports:
+      - "5000:5000"

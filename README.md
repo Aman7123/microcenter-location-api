@@ -14,9 +14,7 @@ Before you can run this API script, ensure you have the following prerequisites 
 You can install the required libraries by running the following commands:
 
 ```bash
-pip3 install flask && \
-pip3 install requests && \
-pip3 install beautifulsoup4
+pip3 install --no-cache-dir -r requirements.txt
 ```
 
 ## Usage
